@@ -31,6 +31,6 @@ android:versionName="1.0" >
         </intent-filter>
 
     </activity>
-
+    <service android:name="com.example.helloworld.musicalchairgame.MusicService" />
 </application>
 </manifest>
