@@ -19,7 +19,41 @@
     <fragment android:id="@+id/navigation_drawer"
         android:layout_width="@dimen/navigation_drawer_width" android:layout_height="match_parent"
         android:layout_gravity="start"
-        android:name="com.example.prasoonsingh.player1.NavigationDrawerFragment"
+        android:name="com.example.helloworld.musicalchairgame.NavigationDrawerFragment"
         tools:layout="@layout/fragment_navigation_drawer" />
+
+    <ListView
+        android:id="@+id/song_list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+    </ListView>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="previous"
+        android:id="@+id/button"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="@+id/button2"
+        android:layout_alignParentStart="@+id/button2" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="||"
+        android:id="@+id/button2"
+        android:layout_alignParentBottom="@+id/button"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="@+id/button" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="next"
+        android:id="@+id/button3"
+        android:layout_alignTop="@+id/button2"
+        android:layout_toRightOf="@+id/button2"
+        android:layout_toEndOf="@+id/button2" />
 
 </android.support.v4.widget.DrawerLayout>
