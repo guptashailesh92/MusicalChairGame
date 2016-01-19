@@ -1,4 +1,4 @@
-package com.example.prasoonsingh.player1;
+package com.example.helloworld.musicalchairgame;
 
 
 import android.app.Activity;
